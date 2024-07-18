@@ -1,1 +1,1 @@
-contain slide project ios for learning
+Contains iOS slides project for learning.
