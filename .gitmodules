@@ -1,0 +1,33 @@
+[submodule "AutoLayout-iOS13"]
+	path = AutoLayout-iOS13
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "BMI-Calculator-iOS13"]
+	path = BMI-Calculator-iOS13
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "Destini-iOS13"]
+	path = Destini-iOS13
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "Dicee-iOS13"]
+	path = Dicee-iOS13
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "EggTimer-iOS13:wq"]
+	path = EggTimer-iOS13:wq
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "EggTimer-iOS13"]
+	path = EggTimer-iOS13
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "I Am Poor"]
+	path = I Am Poor
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "Magic-8-Ball-iOS13"]
+	path = Magic-8-Ball-iOS13
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "Xylophone-iOS13"]
+	path = Xylophone-iOS13
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "fix click settimes"]
+	path = fix click settimes
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
+[submodule "testapp"]
+	path = testapp
+	url = https://github.com/nguyenbahung94/iOS-Slide-Project.git
