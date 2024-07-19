@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let loginViewController = LoginViewController()
     let onboardingContainerViewController = OnboardingContainerViewController()
     let dummyViewController = DummyViewController()
-    var hasOnBiarded = false
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         // Create a new window with the same size as the screen
@@ -33,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 extension AppDelegate: LoginViewControllerDelegate {
     func didLogin() {
-        if hasOnBiarded {
+        if LocalState.hasOnboarded {
             setRootVC(dummyViewController)
         } else {
             setRootVC(onboardingContainerViewController)
@@ -43,7 +42,7 @@ extension AppDelegate: LoginViewControllerDelegate {
 
 extension AppDelegate: OnboardingContainerViewControllerDelegate {
     func didFinishOnboarding() {
-        hasOnBiarded = true
+        LocalState.hasOnboarded = true
        setRootVC(dummyViewController)
     }
 }

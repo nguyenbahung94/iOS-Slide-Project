@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB41FC212C4AC061009AE012 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB41FC202C4AC061009AE012 /* LocalState.swift */; };
 		CB7B17F92C4572A4006CBB57 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B17F82C4572A4006CBB57 /* OnBoardingContainerViewController.swift */; };
 		CB7B17FB2C457619006CBB57 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B17FA2C457619006CBB57 /* OnboardingViewController.swift */; };
 		CBCC925B2C4248800058C2C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCC925A2C4248800058C2C7 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB41FC202C4AC061009AE012 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		CB7B17F82C4572A4006CBB57 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		CB7B17FA2C457619006CBB57 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		CBCC92572C4248800058C2C7 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB41FC1F2C4AC03F009AE012 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CB41FC202C4AC061009AE012 /* LocalState.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		CB7B17F72C457281006CBB57 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 		CBCC92592C4248800058C2C7 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				CB41FC1F2C4AC03F009AE012 /* Utils */,
 				CB7B17F72C457281006CBB57 /* OnBoarding */,
 				CBCC926E2C42866F0058C2C7 /* Files */,
 				CBCC926F2C4286A40058C2C7 /* Login */,
@@ -168,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBCC92712C4286FF0058C2C7 /* LoginView.swift in Sources */,
+				CB41FC212C4AC061009AE012 /* LocalState.swift in Sources */,
 				CBFA7A2D2C496B3D005F0262 /* DummyViewController.swift in Sources */,
 				CBCC925F2C4248800058C2C7 /* LoginViewController.swift in Sources */,
 				CB7B17FB2C457619006CBB57 /* OnboardingViewController.swift in Sources */,
