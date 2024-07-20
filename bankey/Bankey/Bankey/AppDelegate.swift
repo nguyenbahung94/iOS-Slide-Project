@@ -14,16 +14,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let loginViewController = LoginViewController()
     let onboardingContainerViewController = OnboardingContainerViewController()
     let dummyViewController = DummyViewController()
-    
+    let mainViewController = MainViewController()
+    let accountSummaryViewController = AccountSummaryViewController()
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         // Create a new window with the same size as the screen
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
-        window?.rootViewController = loginViewController
-        loginViewController.delegate = self
-        onboardingContainerViewController.delegate = self
-        dummyViewController.logoutDelegate = self
+      //  window?.rootViewController = loginViewController
+        window?.rootViewController = accountSummaryViewController
+       // loginViewController.delegate = self
+       // onboardingContainerViewController.delegate = self
+       // dummyViewController.logoutDelegate = self
         
         return true
     }
